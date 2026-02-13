@@ -1,0 +1,13 @@
+# .prettierrc.toml
+
+
+# Global Prettier options
+printWidth = 80             # Wrap lines at 80 characters
+tabWidth = 2                # Use 2 spaces per indentation level
+useTabs = false             # Indent with spaces, not tabs
+semi = true                 # Add semicolons at the ends of statements
+singleQuote = false         # Use double quotes in HTML
+quoteProps = "as-needed"    # Only add quotes around object properties when required
+bracketSpacing = true       # Print spaces between brackets in object literals
+htmlWhitespaceSensitivity = "css"  # Respect CSS display property when formatting
+endOfLine = "lf"            # Use Unix-style line endings (LF)

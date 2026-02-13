@@ -1,0 +1,40 @@
+.image-container {
+  position: relative;
+  text-align: center; /* Centers the text horizontally */
+}
+
+.image-text {
+  position: absolute;
+  top: 50%; /* Positions the text at the vertical center */
+  left: 50%; /* Positions the text at the horizontal center */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Adjusts the position to center properly */
+  color: white; /* Text color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: adds a shadow to the text for better readability */
+}
+
+.image-text h1 {
+  font-size: 3em; /* Adjust the font size as needed */
+  margin-bottom: 0.5em; /* Optional: adjust spacing between elements */
+}
+
+.image-text p {
+  font-size: 1.5em; /* Adjust the font size as needed */
+}
+
+.nav-link {
+  font-size: 1.2rem !important; /* Adjust the font size for nav items */
+}
+
+.navbar .container {
+  max-width: 100vw;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 5%;
+}
